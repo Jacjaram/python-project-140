@@ -1,10 +1,12 @@
 README.md
 pyproject.toml
 brain_games/__init__.py
+brain_games/cli.py
 brain_games/scripts/__init__.py
 brain_games/scripts/brain_games.py
 hexlet_code.egg-info/PKG-INFO
 hexlet_code.egg-info/SOURCES.txt
 hexlet_code.egg-info/dependency_links.txt
 hexlet_code.egg-info/entry_points.txt
+hexlet_code.egg-info/requires.txt
 hexlet_code.egg-info/top_level.txt
