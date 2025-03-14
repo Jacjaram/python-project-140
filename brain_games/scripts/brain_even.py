@@ -12,16 +12,19 @@ def play_even_game():
     print("Welcome to the Brain Games!")
     name=welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
+    contador=0
     for i in range(0,3):    
         random_number=randint(1,20)
         print(f'Question: {random_number}')        
         user_answ=prompt.string('Your answer: ')
         if user_answ == parity_check(random_number):
             print('Correct!')
+            contador+=1
         else:
             print(f"'{user_answ}' is wrong answer ;(. Correct answer was '{parity_check(random_number)}'. \nLet's try again, {name}!")
             break
-        print(f'Congratulations, {name}!')
+        if contador == 3:
+            print(f'Congratulations, {name}!')
 
 
 def main():
