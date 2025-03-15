@@ -18,7 +18,7 @@ def is_prime(number):
 
 def play_game_prime():
     name=welcome_user()
-    print('"yes" if given number is prime. Otherwise answer "no"')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     contador = 0
     bandera = False
     for i in range(3):
