@@ -13,10 +13,17 @@ Aquí puedes ver una demostracón de como ganas en brain-calc:
 Aquí puedes ver una demostración de como pierdes en brain-calc:
 [![asciicast](https://asciinema.org/a/h6vymcVnOmw573lgpNsFc2DIo)](https://asciinema.org/a/h6vymcVnOmw573lgpNsFc2DIo)
 
-Aquí puedes ver una demostracion de como ganas en brain-gcd:
+Aquí puedes ver una demostración de como ganas en brain-gcd:
 
 [![asciicas](https://asciinema.org/a/saQ12kF6F7QLdkd6BVsbgTvJP)](https://asciinema.org/a/saQ12kF6F7QLdkd6BVsbgTvJP)
 
 Aquí puedes ver una demostración como piertes en brain-gcd:
 
 [![asciicas](https://asciinema.org/a/RIeLDi1zDRzQNcUlAbQi5barQ)](https://asciinema.org/a/RIeLDi1zDRzQNcUlAbQi5barQ)
+
+Aquí puedes ver una demostración como ganas en brain-progression:
+[![asciicas](https://asciinema.org/a/D4vcu3yuDSJJceEBkQiQTyntf)](https://asciinema.org/a/D4vcu3yuDSJJceEBkQiQTyntf)
+
+Aquí puedes ver una demostración como pierdes en brain-progression:
+
+[![asciicas](https://asciinema.org/a/1F8C6Y6ERbfbIxXxSMsyBYChl)](https://asciinema.org/a/1F8C6Y6ERbfbIxXxSMsyBYChl)
