@@ -27,3 +27,10 @@ Aquí puedes ver una demostración como ganas en brain-progression:
 Aquí puedes ver una demostración como pierdes en brain-progression:
 
 [![asciicas](https://asciinema.org/a/1F8C6Y6ERbfbIxXxSMsyBYChl)](https://asciinema.org/a/1F8C6Y6ERbfbIxXxSMsyBYChl)
+
+Aquí puedes ver una demostración como ganas en brain-prime:
+[![asciicas](https://asciinema.org/a/gXXsQnyxv2LJD5zotq3NhXJTp)](https://asciinema.org/a/gXXsQnyxv2LJD5zotq3NhXJTp)
+
+Aquí puedes ver una demostración como piernes en brain-prime:
+
+[![asciicas](https://asciinema.org/a/cZ5kC1ho3zTnnsEqCee2MBZSB)](https://asciinema.org/a/cZ5kC1ho3zTnnsEqCee2MBZSB)

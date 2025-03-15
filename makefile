@@ -10,6 +10,8 @@ brain-gcd:
 	uv run brain-gcd
 brain-progression:
 	uv run brain-progression
+brain-prime:
+	uv run brain-prime
 build:
 	uv build
 package-install:
