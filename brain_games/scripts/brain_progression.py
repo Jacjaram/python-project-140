@@ -17,12 +17,13 @@ def play_game_progression():
         progression_list=[]
         
         for index in range(num_inicio,num_fin,num_incremento):
-            progression_list.append(index)
+            progression_list.append(str(index))
         index_unknown_number = randint(0,9) # Buscaremos el indece de un numero aleatorio para preguntar
         correct_answer = progression_list[index_unknown_number]
         progression_list[index_unknown_number] = '..'
-        print(f'Question: {progression_list}')
-        user_answer = prompt.integer('Your answer: ')
+        progression_string= ' '.join(progression_list)
+        print(f'Question: {progression_string}')
+        user_answer = prompt.string('Your answer: ')
 
         if user_answer == correct_answer:
             print('Correct!')
