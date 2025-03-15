@@ -7,6 +7,7 @@ def play_game_gcd():
     print('Find the greatest common divisor of given numbers.')
     bandera = False
     contador = 0
+
     for i in range(3):
         if bandera:
             break
@@ -30,11 +31,11 @@ def play_game_gcd():
         if user_answer == num2:
             print('Correct!')
         else:
-            error_message(user_answer,num2,name)
+            return error_message(user_answer,num2,name)
             bandera=True
         contador += 1
     if contador == 3:
-        congratulation_message(name)
+        return congratulation_message(name)
 def main():
     play_game_gcd()
 
