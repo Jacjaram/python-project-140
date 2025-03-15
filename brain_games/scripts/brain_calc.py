@@ -11,7 +11,7 @@ def play_calc_game():
         if bandera:
             break
         arithmetic_symbols = ['+','-','*']
-        select_symbol=arithmetic_symbols[randint(0,3)]
+        select_symbol=arithmetic_symbols[randint(0,2)]
         number1=randint(0,100)
         number2=randint(0,100)
        
