@@ -8,8 +8,7 @@ def parity_check(number):
     else:
         return 'no' # No es par, es impar
     
-def play_even_game():
-    print("Welcome to the Brain Games!")
+def play_even_game():    
     name=welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     contador=0

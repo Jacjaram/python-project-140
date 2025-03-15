@@ -6,8 +6,10 @@ def play_calc_game():
     name=welcome_user()
     print('What is the result of the expression?')
     contador=0
-    error=False
+    bandera=False
     for i in range(3):
+        if bandera:
+            break
         arithmetic_symbols = ['+','-','*','/']
         select_symbol=arithmetic_symbols[randint(0,3)]
         number1=randint(0,20)
@@ -22,31 +24,30 @@ def play_calc_game():
                 print('Correct!')
             else:
                 error_message(user_answ,number1+number2,name)
-                error=True
+                bandera=True
                 break
         elif select_symbol == '-':
             if (number1 - number2) == user_answ:
                 print('Correct!')                
             else:
                 error_message(user_answ,number1 - number2, name)
-                error=True
+                bandera=True
                 break
         elif select_symbol == '*':
             if (number1 * number2) == user_answ:
                 print('Correct!')
             else:
                 error_message(user_answ,number1 * number2, name)
-                error=True
+                bandera=True
                 break
         else:
             if (number1 / number2) == user_answ:
                 print('Correct!')
             else:
                 error_message(user_answ,number1 / number2, name)
-                error=True
+                bandera=True
                 break
-        if error:
-            break
+        
         contador+=1
     if contador == 3:
         congratulation_message(name)
