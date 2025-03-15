@@ -1,6 +1,6 @@
 from random import randint 
 import prompt
-from brain_games.cli import welcome_user
+from brain_games.cli import welcome_user,error_message,congratulation_message
 
 def parity_check(number):
     if number % 2 == 0:
@@ -21,13 +21,10 @@ def play_even_game():
             print('Correct!')
             contador+=1
         else:
-            print(f"'{user_answ}' is wrong answer ;(. Correct answer was '{parity_check(random_number)}'. \nLet's try again, {name}!")
+            error_message(user_answ,parity_check(random_number),name)
             break
         if contador == 3:
-            print(f'Congratulations, {name}!')
-
+            congratulation_message(name)
 
 def main():
     play_even_game()  
-# if __name__ == "__main__":
-#     play_even_game()
