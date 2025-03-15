@@ -15,7 +15,7 @@ def play_game_progression():
         num_incremento = randint(1,5)
         num_fin = num_inicio + (num_incremento*10) # el numero final del ciclo será el valor donde arranca sumandole el incremento por 10 que es el rango de la progresion
         progression_list=[]
-        print(num_inicio,num_incremento)
+        
         for index in range(num_inicio,num_fin,num_incremento):
             progression_list.append(index)
         index_unknown_number = randint(0,9) # Buscaremos el indece de un numero aleatorio para preguntar
