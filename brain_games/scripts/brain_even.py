@@ -13,7 +13,7 @@ def play_even_game():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     contador=0
     for i in range(0,3):    
-        random_number=randint(1,20)
+        random_number=randint(0,100)
         print(f'Question: {random_number}')        
         user_answ=prompt.string('Your answer: ')
         if user_answ == parity_check(random_number):
